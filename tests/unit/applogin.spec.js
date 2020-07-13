@@ -1,6 +1,5 @@
 import { shallowMount } from '@vue/test-utils'
 import AppLogin from '@/components/AppLogin'
-import { verifyUserRegistered } from '../../src/service'
 describe('AppLogin.vue', () => {
   it('renders props.msg when passed', () => {
     const wrapper = shallowMount(AppLogin)
@@ -14,7 +13,6 @@ describe('AppLogin.vue', () => {
     AppLogin.methods.sendLogin()
     verifyUserRegisteredMock()
     expect(verifyUserRegisteredMock).toHaveBeenCalled()
-
   })
 })
 

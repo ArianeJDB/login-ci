@@ -10,8 +10,7 @@ FN:26,loginError
 FN:27,(anonymous_7)
 FN:28,(anonymous_8)
 FN:31,(anonymous_9)
-FN:36,logout
-FNF:11
+FNF:10
 FNH:10
 FNDA:3,verifyUserRegistered
 FNDA:12,(anonymous_1)
@@ -23,7 +22,6 @@ FNDA:2,loginError
 FNDA:2,(anonymous_7)
 FNDA:1,(anonymous_8)
 FNDA:1,(anonymous_9)
-FNDA:0,logout
 DA:6,12
 DA:7,3
 DA:8,2
@@ -38,8 +36,7 @@ DA:27,2
 DA:28,2
 DA:29,1
 DA:32,1
-DA:37,0
-LF:15
+LF:14
 LH:14
 BRDA:6,0,0,12
 BRDA:6,0,1,1

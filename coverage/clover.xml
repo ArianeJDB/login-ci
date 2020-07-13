@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1594627811420" clover="3.2.0">
-  <project timestamp="1594627811421" name="All files">
-    <metrics statements="19" coveredstatements="18" conditionals="6" coveredconditionals="5" methods="13" coveredmethods="12" elements="38" coveredelements="35" complexity="0" loc="19" ncloc="19" packages="2" files="3" classes="3"/>
+<coverage generated="1594645434442" clover="3.2.0">
+  <project timestamp="1594645434442" name="All files">
+    <metrics statements="18" coveredstatements="18" conditionals="6" coveredconditionals="5" methods="12" coveredmethods="12" elements="36" coveredelements="35" complexity="0" loc="18" ncloc="18" packages="2" files="3" classes="3"/>
     <package name="src">
-      <metrics statements="16" coveredstatements="15" conditionals="6" coveredconditionals="5" methods="11" coveredmethods="10"/>
+      <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="5" methods="10" coveredmethods="10"/>
       <file name="service.js" path="/Users/kairosds/Documents/github-actions/login-ci/src/service.js">
-        <metrics statements="15" coveredstatements="14" conditionals="6" coveredconditionals="5" methods="11" coveredmethods="10"/>
+        <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="5" methods="10" coveredmethods="10"/>
         <line num="6" count="12" type="cond" truecount="2" falsecount="0"/>
         <line num="7" count="3" type="cond" truecount="2" falsecount="0"/>
         <line num="8" count="2" type="stmt"/>
@@ -20,7 +20,6 @@
         <line num="28" count="2" type="stmt"/>
         <line num="29" count="1" type="stmt"/>
         <line num="32" count="1" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
       </file>
       <file name="token.js" path="/Users/kairosds/Documents/github-actions/login-ci/src/token.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>

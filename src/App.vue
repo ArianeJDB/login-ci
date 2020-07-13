@@ -1,18 +1,30 @@
 <template>
   <div id="app">
-    <app-login></app-login>
+     <router-view/>
   </div>
 </template>
 
 <script>
-import AppLogin from './components/AppLogin'
 export default {
   name: 'App',
   components: {
-    AppLogin
+  },
+  data () {
+    return {
+      mounted () {
+        window.location.href = '/'
+      }
+    }
   }
 }
 </script>
 
 <style>
+#app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 </style>

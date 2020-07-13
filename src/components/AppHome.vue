@@ -1,9 +1,7 @@
 <template>
   <div>
-      <button @click="logout">logout</button>
+      <button @click="logout">Logout</button>
       Welcome to the app!
-     <router-view/>
-
   </div>
 </template>
 
@@ -32,4 +30,5 @@ export default {
 </script>
 
 <style>
+
 </style>

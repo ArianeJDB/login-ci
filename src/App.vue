@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    hola
     <app-login></app-login>
   </div>
 </template>

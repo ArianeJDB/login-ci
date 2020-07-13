@@ -1,5 +1,7 @@
 import registeredUsers from '../../src/registeredUsers.json'
-import { verifyUserRegistered, loginSuccess } from '../../src/service'
+import { verifyUserRegistered } from '../../src/service'
+import { token } from '../../src/token'
+
 describe('service', () => {
   test('verifyUserRegistered should verify is user is registered by username and password', () => {
     const username = 'pepa'
@@ -9,14 +11,14 @@ describe('service', () => {
     verifyUserRegistered()
     expect(userLogged).toStrictEqual(credentials)
   })
-  test('loginSuccess should call setTimeOut', () => {
-    jest.useFakeTimers()
 
-    loginSuccess()
-
-    expect(setTimeout).toHaveBeenCalledTimes(1)
+  test('verifyUserRegistered should resolve and return token', (done) => {
+    verifyUserRegistered('jax', 'teller').then(result => {
+      expect(result).toEqual(token)
+      done()
+    })
   })
-  test('when login should return token', () => {
-    
-  })
+  // test('loginError should be asynchronous and return token', () => {
+  //   loginError().catch(e => expect(e).toMatch('Unauthorized'))
+  // })
 })

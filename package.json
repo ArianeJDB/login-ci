@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
@@ -64,13 +65,12 @@
   "jest": {
     "preset": "@vue/cli-plugin-unit-jest",
     "coverageThreshold": {
-        "global": {
-          "branches": 80,
-          "functions": 80,
-          "lines": 80,
-          "statements": -10
-        }
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": -10
       }
-
+    }
   }
 }

@@ -18,6 +18,7 @@ export function loginSuccess () {
   }).then(result => {
     if (localStorage) {
       localStorage.setItem('token', result)
+      window.location.href = '/home'
     }
     return result
   })

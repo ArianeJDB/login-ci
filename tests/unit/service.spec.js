@@ -18,7 +18,4 @@ describe('service', () => {
       done()
     })
   })
-  // test('loginError should be asynchronous and return token', () => {
-  //   loginError().catch(e => expect(e).toMatch('Unauthorized'))
-  // })
 })

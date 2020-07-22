@@ -18,5 +18,4 @@ describe('service', () => {
       done()
     })
   })
-  
 })

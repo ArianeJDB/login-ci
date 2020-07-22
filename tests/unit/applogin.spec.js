@@ -15,7 +15,4 @@ describe('AppLogin.vue', () => {
     expect(verifyUserRegisteredMock).toHaveBeenCalled()
   })
 })
-
-// const spy =  spyOn(actionStore, 'init');
-//     component.getActionsByApplication();
-//     expect(spy).toHaveBeenCalled();
+   expect(spy).toHaveBeenCalled();
